@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hola Mundo</title>
+<script type="text/javascript" src="jquery-3.2.1.js"></script>
+<script type="text/javascript" language="javascript">
+$(document).ready(inicio);
+	
+function inicio(){
+	alert("Entrando");
+	$("#hola").click(resalta);
+}	
+
+function resalta()	{
+	$("#hola").css("color","red");
+	$("#hola").css("background-color","yellow");
+}
+	
+</script>
+</head>
+
+<body>
+	<p id="hola">Hola, cara de bola</p>				
+</body>
+</html>
